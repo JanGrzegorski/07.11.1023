@@ -1,0 +1,25 @@
+Temat: Obsługa plików textowych w cpp
+
+Operacje wejścia i wyjścia na plikach za pomocą funkcji:
+- ifstream - odczyt danych z pliku
+- ofstream - zapis danych do pliku
+- fsstream - obsługa zapisu i odczytu pliku
+
+Tryby pracy:
+	ios:: in - tryb odczytu
+	ios:: out - tryp zapisu
+	ios:: ate - tryb usuwania się na końcu pliku
+	ios:: app - tryb dopisywania do pliku (nie kasujemy)
+	ios:: trunc - tryb usuwania zawartości pliku jeśli istnieje
+	ios:: nocreate - tryb otwarcia pliku jeśli istnieje, nie tworzy nowego pliku
+	ios:: noreplace - tryb otwarcia pliku jeśli nie istnieje
+	ios:: binary - tryb binarny (domyślnie jest tekstowy)
+
+Przydatne funkcje
+	good() - czy mamy dostęp do pliku
+	is_open()- czy plik został otwarty
+	close()- zamknięcie pliku
+	eof() - sprawdzenie czy dotarliśmy do kończ pliku
+	tellg(), tellp() - odczytanie aktualnej pozycji pliku
+	seekg(), seekp() - ustawienie pozycji w pliku
+	g - da odczytu, p- dla zapisu
