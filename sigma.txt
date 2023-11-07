@@ -8,8 +8,9 @@ Operacje wejścia i wyjścia na plikach za pomocą funkcji:
 Tryby pracy:
 	ios:: in - tryb odczytu
 	ios:: out - tryp zapisu
-	ios:: ate - tryb usuwania się na końcu pliku
 	ios:: app - tryb dopisywania do pliku (nie kasujemy)
+	ios:: ate - tryb usuwania się na końcu pliku
+------------najważniejsze-------------------------------------------------
 	ios:: trunc - tryb usuwania zawartości pliku jeśli istnieje
 	ios:: nocreate - tryb otwarcia pliku jeśli istnieje, nie tworzy nowego pliku
 	ios:: noreplace - tryb otwarcia pliku jeśli nie istnieje
@@ -23,3 +24,16 @@ Przydatne funkcje
 	tellg(), tellp() - odczytanie aktualnej pozycji pliku
 	seekg(), seekp() - ustawienie pozycji w pliku
 	g - da odczytu, p- dla zapisu
+Zad1
+	Zapis do pliku tekstowego linii wczytanej z klawiatury
+
+Jeśli typ znakowy charm to mowa o pojedyńczym apostrofie ('--')
+Jeśli typ Tekstowy string to mowa o podwujnym apostrofie ("--")
+
+Zad2
+	wczytywanie zawartści pliku znak po znaku c++
+
+Zad3
+	Wczytaj zawartość pliku imie.txt imiona oddzielone znakiem spacji
+Zad4
+	Wczytaj zawartość pliku
